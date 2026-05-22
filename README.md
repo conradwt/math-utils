@@ -1,6 +1,30 @@
 # MathUtils
 
-**TODO: Add description**
+A simple Elixir library providing basic mathematical operations including addition, subtraction, multiplication, and division with error handling for division by zero.
+
+## Features
+
+- **Addition**: Add two integers.
+- **Subtraction**: Subtract one integer from another.
+- **Multiplication**: Multiply two integers.
+- **Division**: Divide two numbers with safe handling for division by zero.
+
+## Usage
+
+```elixir
+# Addition
+MathUtils.add(2, 3) # => 5
+
+# Subtraction
+MathUtils.subtract(5, 3) # => 2
+
+# Multiplication
+MathUtils.multiply(4, 3) # => 12
+
+# Division
+MathUtils.divide(10, 2) # => {:ok, 5.0}
+MathUtils.divide(10, 0) # => {:error, :division_by_zero}
+```
 
 ## Installation
 
