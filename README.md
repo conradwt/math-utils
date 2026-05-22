@@ -26,6 +26,40 @@ MathUtils.divide(10, 2) # => {:ok, 5.0}
 MathUtils.divide(10, 0) # => {:error, :division_by_zero}
 ```
 
+## Running Tests
+
+To run the test suite, follow these steps:
+
+1.  **Clone the repository** (if you haven't already):
+    ```bash
+    git clone <repository_url>
+    cd math_utils
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    mix deps.get
+    ```
+
+3.  **Run the tests**:
+    ```bash
+    mix test
+    ```
+
+    Example output:
+    ```text
+    $ mix test
+    Compiling 1 file (.ex)
+    Running ExUnit with seed: 455901, max_cases: 20
+
+    .............
+    Finished in 0.01 seconds (0.01s async, 0.00s sync)
+
+    Result: 13 passed (5 doctests, 8 tests)
+    ```
+
+    This will execute both the unit tests and the documentation tests (doctests) found in the source code.
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
