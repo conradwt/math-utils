@@ -32,8 +32,8 @@ To run the test suite, follow these steps:
 
 1.  **Clone the repository** (if you haven't already):
     ```bash
-    git clone <repository_url>
-    cd math_utils
+    git clone https://github.com/conradwt/math-utils.git
+    cd math-utils
     ```
 
 2.  **Install dependencies**:
@@ -47,6 +47,7 @@ To run the test suite, follow these steps:
     ```
 
     Example output:
+
     ```text
     $ mix test
     Compiling 1 file (.ex)
@@ -58,7 +59,7 @@ To run the test suite, follow these steps:
     Result: 13 passed (5 doctests, 8 tests)
     ```
 
-    This will execute both the unit tests and the documentation tests (doctests) found in the source code.
+    Running `mix test` will include and run both the unit tests and the documentation tests (doctests) found in the source code.
 
 ## Installation
 
